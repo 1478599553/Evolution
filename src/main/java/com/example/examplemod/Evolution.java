@@ -20,10 +20,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.stream.Collectors;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod("assets/evolution")
+@Mod("evolution")
 public class Evolution
 {
-    public static final String MOD_ID = "assets/evolution";
+    public static final String MOD_ID = "evolution";
     // Directly reference a log4j logger.
     private static final Logger LOGGER = LogManager.getLogger();
 
